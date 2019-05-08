@@ -1,4 +1,4 @@
-# Browserstack local tool containerized
+# Docker Browserstack Local
 This repo contains a Dockerfile that create an image containing the _BrowserStackLocal_ executable. Additionally, Helm deployment manifest file is provided for K8S cluster deployment.
 
 _BrowserStackLocal_ seres as a tool to create a tunnel from any machine - which is in most cases not public facing and propably behind a company firewall - to the Browserstack.com Hub and the attached Selenium Grid. Therefore, it uses port 443 and websockets.
