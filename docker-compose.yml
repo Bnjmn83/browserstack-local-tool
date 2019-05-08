@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  browserstack-local-testing:
+    image: binaryguy/browserstacklocaltesting
+    environment:
+      ACCESS_KEY: ${ACCESS_KEY}
+    build:
+      context: .
